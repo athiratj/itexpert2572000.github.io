@@ -702,6 +702,23 @@ input, select, textarea {
 				#header nav a span {
 					display: none;
 				}
+				#header .button a{
+					display: inline-block;
+					color: #fff;
+					font-size: 18px;
+					padding: 4px 24px;
+					margin-top: 100px;
+					font-weight: 600;
+					border-radius: 5px;
+					border: 2px solid #fff;
+					box-shadow: 2px 2px#fff;
+					transition: all 0.3s ease;
+				}
+				#header .button a:hover {
+					background: #fff;
+					color:#348cb2;
+					box-shadow: 2px 2px 3px #fff;
+				}
 
 /* Footer */
 
